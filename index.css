@@ -1,0 +1,134 @@
+body{
+  margin : 0;
+}
+
+h1{
+  text-align: center;
+  margin-top : 4.125rem;
+  margin-bottom: 6.125rem;
+}
+
+.blocks-container{
+  margin-top : 3.125rem;
+}
+
+.blocks-top, .blocks-middle, .blocks-bottom{
+  display : flex;
+  justify-content: center;
+}
+
+.block-top-left{
+  line-height: 5rem;
+  text-align: center;
+  font-size : 2rem;
+  width : 5rem;
+  height : 5rem;
+  border-right : 5px solid black;
+  border-bottom : 5px solid black;
+}
+
+.block-top-middle{
+  line-height: 5rem;
+  text-align: center;
+  font-size : 2rem;
+  width : 5rem;
+  height : 5rem;
+  border-right : 5px solid black;
+  border-bottom : 5px solid black;
+}
+
+.block-top-right{
+  line-height: 5rem;
+  text-align: center;
+  font-size : 2rem;
+  width : 5rem;
+  height : 5rem;
+  border-bottom : 5px solid black;
+}
+
+.block-middle-left{
+  line-height: 5rem;
+  text-align: center;
+  font-size : 2rem;
+  width : 5rem;
+  height : 5rem;
+  border-right : 5px solid black;
+  border-bottom : 5px solid black;
+}
+
+.block-middle{
+  line-height: 5rem;
+  text-align: center;
+  font-size : 2rem;
+  width : 5rem;
+  height : 5rem;
+  border-right : 5px solid black;
+  border-bottom : 5px solid black;
+}
+
+.block-middle-right{
+  line-height: 5rem;
+  text-align: center;
+  font-size : 2rem;
+  width : 5rem;
+  height : 5rem;
+  border-bottom : 5px solid black;
+}
+
+.block-bottom-left{
+  line-height: 5rem;
+  text-align: center;
+  font-size : 2rem;
+  width : 5rem;
+  height : 5rem;
+  border-right : 5px solid black;
+}
+
+.block-bottom-middle{
+  line-height: 5rem;
+  text-align: center;
+  font-size : 2rem;
+  width : 5rem;
+  height : 5rem;
+  border-right : 5px solid black;
+}
+
+.block-bottom-right{
+  line-height: 5rem;
+  text-align: center;
+  font-size : 2rem;
+  width : 5rem;
+  height : 5rem;
+}
+
+.winner-block{
+  display : none;
+  width : 12.5rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right : auto;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.play-again-button, .play-again-btn{
+  width : 6rem;
+  height : 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1.25rem;
+  background-color: #344CB7;
+  color : white;
+  padding : 0.25rem 0.5rem;
+  border:  none;
+}
+
+.draw-block{
+  display : none;
+  width : 12.5rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right : auto;
+  text-align: center;
+  font-size: 2rem;
+}
